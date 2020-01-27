@@ -2,7 +2,7 @@
     <div class="row">
         <div class ="col-xs-12">
 
-            <div class="alert alert-info">
+            <div class="alert alert-success">
                 <strong>Selamat Datang di SI Pemesanan Kamar Hotel</strong>
             </div>
         </div>
@@ -63,7 +63,7 @@
         <div class="col-sm-3 col-xs-12">
             <!--Jika terjadi login error tampilkan pesan ini-->
             <?php if(isset($_GET['error']) ) {?>
-            <div class="alert alert-danger">Maaf! Login Gagal, Coba Lagi..</div>
+            <div class="alert alert-warning">Maaf! Login Gagal, Coba Lagi..</div>
             <?php }?>
 
             <?php if (isset($_SESSION['username'])) { ?>
@@ -73,7 +73,7 @@
             <?php
            } else { ?>
 
-            <div class="panel panel-success">
+            <div class="panel panel-info">
                 <div class="panel-heading">
                     <h3 class="panel-title">Masuk Ke Sistem</h3>
                 </div>
@@ -95,7 +95,7 @@
                         <div class="form-group">
                             <div class="col-sm-12">
                                 <button type="submit" name="login" value="login"
-                                        class="btn btn-success btn-block"><span class="fa fa-unlock-alt"></span>
+                                        class="btn btn-info btn-block"><span class="fa fa-unlock-alt"></span>
                                     Login Sistem
                                 </button>
                             </div>
