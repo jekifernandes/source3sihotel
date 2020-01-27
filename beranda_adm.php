@@ -2,7 +2,7 @@
     <div class="row">
         <div class ="col-xs-12">
 
-            <div class="alert alert-info">
+            <div class="alert alert-success">
                 Selamat datang kembali <strong><?=$_SESSION['nama']?></strong>
             </div>
         </div>
