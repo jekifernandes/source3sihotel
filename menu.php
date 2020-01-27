@@ -24,7 +24,7 @@
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Laporan <span class="caret"></span></a>
                     <ul class="dropdown-menu">
                         <li><a href="?page=kamar&actions=report">Laporan Semua</a></li>
-                                    <li><a href="?page=laporan&actions=bulan">Laporan Bulanan</a></li>
+                                    
                     </ul>
                 </li>
 
